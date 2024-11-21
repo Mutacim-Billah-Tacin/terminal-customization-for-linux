@@ -38,6 +38,5 @@ nano .zshrc
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-POWERLEVEL9K_MODE="nerdfont-complete"
-
 > exit > y > y > y > 1 > n > your_choice
+> y > y > finish
