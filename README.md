@@ -1,22 +1,22 @@
-# sudo apt install zsh
+$ sudo apt install zsh
 
 > exit > 1 > 2 > 1 > 0
 
 <<<< Set zsh as default >>>>
 
-# chsh -s $(which zsh)
+$ chsh -s $(which zsh)
 
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 > y
 
-# git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+$ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
-# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 
 <<<< edit .zshrc to include plugins >>>>
 
-# nano .zshrc
+$ nano .zshrc
 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting history)
 
@@ -26,15 +26,15 @@ https://www.nerdfonts.com/
 
 <<<< move the font file >>>>
 
-# sudo mv __font__ /usr/share/fonts/
+$ sudo mv __font__ /usr/share/fonts/
 
-# sudo fc-cache -fv
+$ sudo fc-cache -fv
 
-# git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+$ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
 
 <<<< edit .zshrc >>>>
 
-# nano .zshrc
+$ nano .zshrc
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
