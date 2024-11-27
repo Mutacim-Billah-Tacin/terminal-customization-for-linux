@@ -1,3 +1,12 @@
+sudo nano /etc/pacman.conf
+
+#[multilib]
+#Include = /etc/pacman.d/mirrorlist
+
+#Color
+#ParallelDownloads = 5
+ILoveCandy
+
 $ sudo apt install zsh
 
 > exit > 1 > 2 > 1 > 0
