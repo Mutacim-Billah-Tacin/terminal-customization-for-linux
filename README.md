@@ -1,4 +1,4 @@
-sudo nano /etc/pacman.conf
+$ sudo nano /etc/pacman.conf
 
 #[multilib]
 #Include = /etc/pacman.d/mirrorlist
